@@ -336,7 +336,8 @@ function carMaker(num) {
   let object ={
     "odometer": num,
     "drive": function(d){
-      return num + d 
+      num = num + d 
+      return num
     }
   }
   return object
